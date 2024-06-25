@@ -19,7 +19,7 @@ Take a minute to reflect and record any additional learning goals you have for y
 
 # In the news: Adobe
 - Last week the [Federal Trade Commission sued Adobe](https://slate.com/technology/2024/06/adobe-ftc-lawsuit-hard-cancel-subscriptions-ai.html) (Photoshop, Illustrator, Acrobat software company) for predatory business practices
-- This cast a light on recent criticism Adobe has received on the AI software **Adobe Firefly**
+- This cast a light on recent criticism Adobe has received about the AI software **Adobe Firefly**
   - Firefly aims to be a leader in AI software for creative and artistic endeavors, providing a suite of tools including AI image generation
 - Critics of Firefly wonder:
   - How does AI image generation fit into artist's workflows? Will it replace artist's jobs?
@@ -127,7 +127,7 @@ Hint: If you're stuck visit
 # Scenario 2. You are a member of a research team. Your team recently finished collecting and analyzing data for your experimental trial. One of your team members offers to feed the data into an AI tool to efficiently generate figures. 
 
 # Scenario 2. 
-- [What is the guidance using AI tools to generate figures?](https://midas.umich.edu/generative-ai/data-analysis-guide/
+- [What is the guidance on using AI tools to generate figures?](https://midas.umich.edu/generative-ai/data-analysis-guide/
 )
 - Which model is appropriate for this task?
 - What is the training data for the selected model?
