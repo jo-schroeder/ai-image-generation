@@ -52,7 +52,7 @@ Universal Design for Learning:
 -   Expression
 
 
-**Bucknell Library & IT, Intro to R and the 3 Ways (Part 1)**
+**UCSF, AI Image Generation**
 
 +--------------------------------------------------------+------------+
 | Students' Preparation / Pre-work:                      |            |
