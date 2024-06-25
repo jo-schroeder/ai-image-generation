@@ -159,7 +159,7 @@ Internal UCSF Library Staff and Resources
 
 [Hugging Face](https://huggingface.co/docs)
 
-> ## Teaching Debrief
+# Teaching Debrief
 
 # Frameworks
 -   Backwards/Integrated Course Design
@@ -196,6 +196,7 @@ Internal UCSF Library Staff and Resources
 -   "What would distinguish students who have taken this course from students who have not?”
 -   Moving from content centered to learning centered
 -   Using Fink's taxonomy of significant learning
+      - Foundational knowledge, application, and learning how to learn
 
 # If I had more time I would...
 
@@ -227,6 +228,5 @@ Keller, S. A., Shipp, S. S., Schroeder, A. D., and Korkmaz, G. (2020),
 “Doing Data Science: A Framework and Case Study,” Harvard Data Science
 Review, 2. DOI: 10.1162/99608f92.2d83f7f5.
 
-# 
 
 
