@@ -1,0 +1,11 @@
+name: "ai-image-generation"
+output_dir: "docs"
+navbar:
+  title: "AI Image Generation"
+  left:
+    - text: "Homepage"
+      href: index.html
+    - text: "Presentation"
+      href: presentation.html
+    - text: "Lesson Plan"
+      href: plan.html

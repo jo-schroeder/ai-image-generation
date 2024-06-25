@@ -1,0 +1,5 @@
+---
+title: "Index"
+---
+
+This website contains a presentation and sample lesson plan for an Intro to AI Image Generation workshop

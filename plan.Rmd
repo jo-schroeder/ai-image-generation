@@ -1,0 +1,118 @@
+---
+title: "Lesson Plan"
+editor_options: 
+  markdown: 
+    wrap: 72
+---
+
+Workshop Name:
+
+# AI Image Generation
+
+Learning Goals:
+
+By the end of this workshop, students will be able to
+
+  - Understand the basics of how AI image generation works
+  - Apply ethical and equity lenses to analyze relevant applications of this technology
+  - Feel inspired, curious, and empowered to continue to explore this technology in the future
+
++----------------------------------+----------------------------------+
+| Learning Goal                    | Assessment/Activities            |
++==================================+==================================+
+| Understand the basics of         | -   Individual: Knowledge check  |
+| how AI image generation works    |                                  |
+|                                  | -   Individual: Explore a        |
+|                                  |     technology                   |
+|                                  |      
++----------------------------------+----------------------------------+
+| Apply ethical and equity lenses  | -   Group: Jamboard/Whiteboard   |
+| to analyze relevant              |     questions                    |
+| applications of this technology  |                                  |
+|                                  | -   Group: Develop a case-study  |
+|                                  |                                  |
++----------------------------------+----------------------------------+
+| Feel inspired, curious, and      | -   Individual: One minute       |
+| empowered to continue            |     paper                        |
+| to explore this technology       |                                  |
+| in the future                    | -   Group: Think-pair-share      |
+|                                  |                                  |
++----------------------------------+----------------------------------+
+
+Universal Design for Learning:
+
+-   Engagement
+
+  - Individual and group reflection
+
+-   Representation
+
+  - Additional resources in multiple formats
+
+-   Expression
+
+
+**Bucknell Library & IT, Intro to R and the 3 Ways (Part 1)**
+
++--------------------------------------------------------+------------+
+| Students' Preparation / Pre-work:                      |            |
+|                                                        |            |
+| None                                                   |            |
++--------------------------------------------------------+------------+
+| Materials Needed:                                      |            |
+|                                                        |            |
+| Access to Zoom                                         |            |
+|                                                        |            |
+| Preferable: Access to Zoom Chat, Multiple Tabs, Google |            |
+| Jamboard                                               |            |
++--------------------------------------------------------+------------+
+| Class Session Goals:                                   |            |
+|                                                        |            |
+| -   Understand the basics of how AI image              |            |
+|     generation works                                   |            |
+|                                                        |            |
+| -   Apply ethical and equity lenses to analyze         |            |
+|     relevant applications of this technology           |            |
+|                                                        |            |
+| -   Feel inspired, curious, and empowered to continue  |            |
+|     to explore this technology in the future           |            |
++--------------------------------------------------------+------------+
+| **Notes / Description of Activity**                    | **Time**   |
++--------------------------------------------------------+------------+
+| Warm up: Contextualize with a current event            |  2 minutes |
+|                                                        |            |
++--------------------------------------------------------+------------+
+| How does AI image generation work?                     |  5 minutes |
+|                                                        |            |
+| -   Models                                             |            |
+|                                                        |            |
+| -   Training data                                      |            |
+|                                                        |            |
+| -   Examples                                           |            |
++--------------------------------------------------------+------------+
+| Activity: Knowledge Check                              | 3 minutes  |
+|                                                        |            |
+| -   Zoom chat and unmute opportunity                   |            |
+|                                                        |            |
+| -   Pause for questions                                |            |
+|                                                        |            |
++--------------------------------------------------------+------------+
+| Application: Should I use it?                          | 4 minutes  |
+|                                                        |            |
+| -   General application considerations                 |            |
+|                                                        |            |
+| -   Equity and ethics application considerations       |            |
+|                                                        |            |
++--------------------------------------------------------+------------+
+| Activity: Jamboard                                     | 5 minutes  |
+|                                                        |            |
+| -   Application scenarios                              |            |
+|                                                        |            |
++--------------------------------------------------------+------------+
+| Debrief and Wrap Up                                    | 1 minute   |
+|                                                        |            |
+| -   Debrief scenarios                                  |            |
+|                                                        |            |
+| -   Additional resources                               |            |
+|                                                        |            |
++--------------------------------------------------------+------------+

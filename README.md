@@ -1,1 +1,1 @@
-# ai-image-generation
+This repository contains a presentation on the Intro to AI Image Generation workshop and a sample lesson plan

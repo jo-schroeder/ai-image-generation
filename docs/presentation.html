@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <meta name="author" content="Joanna Schroeder" />
+  <meta name="copyright" content=" 
+<a href = './index.html'>Homepage</a>   <a href = './plan.html'>Lesson
+Plan</a>"/>
+  <title>AI Image Generation</title>
+  <style type="text/css">
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+              </style>
+  <script src="site_libs/header-attrs-2.16/header-attrs.js"></script>
+  <link href="site_libs/slidy-2/styles/slidy.css" rel="stylesheet" />
+  <script src="site_libs/slidy-2/scripts/slidy.js"></script>
+  <script src="site_libs/slidy_shiny-1/slidy_shiny.js"></script>
+</head>
+<body>
+<div class="slide titlepage">
+  <h1 class="title">AI Image Generation</h1>
+  <p class="author">
+Joanna Schroeder
+  </p>
+  <p class="date">Presentation to UCSF <br> June 24 2024</p>
+</div>
+<div id="learning-goals" class="slide section level1">
+<h1>Learning Goals</h1>
+<ul>
+<li>After completing this course, students will be able to…
+<ul>
+<li>Understand the basics of how AI image generation works</li>
+<li>Apply ethical and equity lenses to analyze relevant applications of
+this technology</li>
+<li>Feel inspired, curious, and empowered to continue to explore this
+technology in the future</li>
+</ul></li>
+</ul>
+<p>Take a minute to reflect and record any additional learning goals you
+have for yourself.</p>
+</div>
+<div id="in-the-news-adobe" class="slide section level1">
+<h1>In the news: Adobe</h1>
+<ul>
+<li>Last week the <a
+href="https://slate.com/technology/2024/06/adobe-ftc-lawsuit-hard-cancel-subscriptions-ai.html">Federal
+Trade Commission sued Adobe</a> (Photoshop, Illustrator, Acrobat
+software company) for predatory business practices</li>
+<li>This cast a light on recent criticism Adobe has received unveiling
+its AI software <strong>Adobe Firefly</strong>, which aims to be a
+leader in AI software for creative and artistic endeavors, providing a
+suite of tools including AI image generation</li>
+<li>Critics of Firefly wonder:
+<ul>
+<li>How does AI image generation fit into artist’s workflows? Will it
+replace artist’s jobs?</li>
+<li>What resources did Adobe use to build Firefly?</li>
+<li>Is information about Firefly transparent and available?</li>
+<li>Does Firefly produce low quality or harmful images?</li>
+</ul></li>
+</ul>
+</div>
+<div id="how-does-ai-image-generation-work"
+class="slide section level1">
+<h1>How does AI image generation work?</h1>
+<ul>
+<li>Requires two main components:
+<ol style="list-style-type: decimal">
+<li>A model (algorithm)</li>
+<li>Training data</li>
+</ol></li>
+</ul>
+</div>
+<div id="ai-image-generation-model" class="slide section level1">
+<h1>AI image generation: Model</h1>
+<ul>
+<li>Leverages sophisticated models known as <strong>deep
+learning</strong> models
+<ul>
+<li>Essentially designed to mimic how the human brain works (think
+pattern recognition, learning networks)</li>
+</ul></li>
+<li>Stable diffusion</li>
+</ul>
+<div class="float">
+<img src="img/stable-diffusion.jpg" width="600"
+alt="Top set of four images where a dog progressively turns to static, Bottom set of four images where static progressively turns into a dog" />
+<div class="figcaption">Top set of four images where a dog progressively
+turns to static, Bottom set of four images where static progressively
+turns into a dog</div>
+</div>
+<p>Image Credit: <a
+href="https://guides.library.utoronto.ca/c.php?g=735513&amp;p=5297039">University
+of Toronto Libraries</a></p>
+</div>
+<div id="ai-image-generation-training-data"
+class="slide section level1">
+<h1>AI image generation: Training data</h1>
+<ul>
+<li>Voluminous (i.e. millions of images) (e.g. <a
+href="https://www.fastcompany.com/90951954/as-firefly-leaves-beta-adobe-promises-bonuses-to-creators-who-trained-its-ai#:~:text=While%20Adobe%20only%20trained%20Firefly,that%20was%20now%20their%20competition">Adobe
+firefly 300 million</a>)</li>
+<li>Most of these models are designed for generally without a specific
+task or focus in mind, so topic can vary
+<ul>
+<li>But keep in mind thing that are less frequent in the dataset will
+show up less frequently</li>
+</ul></li>
+<li>Annotated/but can be supervised or unsupervised</li>
+</ul>
+</div>
+<div id="ai-image-generation-in-the-wild" class="slide section level1">
+<h1>AI image generation in the wild</h1>
+<ul>
+<li>Popular AI image generation technologies:
+<ul>
+<li>Adobe Firefly</li>
+<li>Microsoft Co-pilot</li>
+<li>DALL-E 3 (and DALL-E mini)</li>
+<li>Midjourney</li>
+<li><a href="https://mitsloanedtech.mit.edu/ai/tools/images/">Additional
+technologies</a></li>
+</ul></li>
+</ul>
+</div>
+<div id="knowledge-check" class="slide section level1">
+<h1>Knowledge Check</h1>
+<ul>
+<li>Questions?</li>
+<li>Where have you encountered AI image generation? Have you used any AI
+image generation technologies?</li>
+</ul>
+</div>
+<div id="should-i-use-an-ai-image-generation-tool"
+class="slide section level1">
+<h1>Should I use an AI image generation tool?</h1>
+<ul>
+<li>Critically consider: For what purpose am I using AI image
+generation?
+<ul>
+<li>Is there precedent or guidance to use AI image generation in this
+way?</li>
+</ul></li>
+<li>Is reproducibility a concern for my use?
+<ul>
+<li><strong>AI image generation is largely not
+reproducible</strong></li>
+</ul></li>
+<li>Do I have any computational constraints? Cost constraints?</li>
+<li>Do I need to build my own custom model or can I use an existing
+solution? Are existing models transparent?
+<ul>
+<li>Explainable AI</li>
+<li>Black box vs white box models, open source models</li>
+</ul></li>
+</ul>
+</div>
+<div id="ethics-and-equity-lenses-ai-image-generation"
+class="slide section level1">
+<h1>Ethics and equity lenses: AI image generation</h1>
+<ul>
+<li>Training data
+<ul>
+<li>How was the training data collected?</li>
+<li>Is the training data biased in a way that will produce harmful
+outcomes?</li>
+</ul></li>
+<li>Is there a need for equity of access to AI image generation
+tools?</li>
+</ul>
+</div>
+<div id="university-of-torontos-valid-ai" class="slide section level1">
+<h1><a
+href="https://guides.library.utoronto.ca/image-gen-ai/critical-evaluation">University
+of Toronto’s VALID-AI</a></h1>
+<p>V: Validate data</p>
+<p>A: Analyze algorithms</p>
+<p>L: Legal and ethical considerations</p>
+<p>I: Interpret how it works</p>
+<p>D: Diversity and bias</p>
+<p>A: Accuracy check</p>
+<p>I: You</p>
+</div>
+<div id="activity" class="slide section level1">
+<h1>Activity</h1>
+<p><a
+href="https://jamboard.google.com/d/1bXWisOiuy1Uvxc24HXrGR6kB7LKAYm9S59BUZ_OfYgU/edit?usp=sharing">Jamboard</a></p>
+<p>Engage with each scenario by asking a question or making a comment.
+What would questions or considerations come to your mind?</p>
+<p>Hint: If you’re stuck visit <a
+href="https://guides.library.utoronto.ca/image-gen-ai/critical-evaluation">University
+of Toronto’s VALID-AI</a></p>
+</div>
+<div
+id="scenario-1.-you-are-putting-together-a-presentation-for-your-studentsclassmates.-you-would-like-to-include-a-technical-diagram-but-you-dont-find-anything-useful-through-standard-image-repositories.-you-consider-that-you-could-use-an-ai-image-generation-tool-for-this-task."
+class="slide section level1">
+<h1>Scenario 1. You are putting together a presentation for your
+students/classmates. You would like to include a technical diagram, but
+you don’t find anything useful through standard image repositories. You
+consider that you could use an AI image generation tool for this
+task.</h1>
+</div>
+<div id="scenario-1." class="slide section level1">
+<h1>Scenario 1.</h1>
+<ul>
+<li><a
+href="https://mitsloanedtech.mit.edu/2024/03/06/supporting-learning-with-ai-generated-images-a-research-backed-guide/">What
+is the guidance on AI generated images in education?</a></li>
+<li>Which model is appropriate for this task?</li>
+<li>What is the training data for the selected model?</li>
+<li>How can I transparently report that I’m using AI image
+generation?</li>
+<li>What is the context of my presentation?</li>
+<li>What is the benefit to the audience?</li>
+</ul>
+</div>
+<div
+id="scenario-2.-you-are-a-member-of-a-research-team.-your-team-recently-finished-collecting-and-analyzing-data-for-your-experimental-trial.-one-of-your-team-members-offers-to-feed-the-data-into-an-ai-tool-to-efficiently-generate-figures."
+class="slide section level1">
+<h1>Scenario 2. You are a member of a research team. Your team recently
+finished collecting and analyzing data for your experimental trial. One
+of your team members offers to feed the data into an AI tool to
+efficiently generate figures.</h1>
+</div>
+<div id="scenario-2." class="slide section level1">
+<h1>Scenario 2.</h1>
+<ul>
+<li><a
+href="https://midas.umich.edu/generative-ai/data-analysis-guide/">What
+is the guidance using AI tools to generate figures?</a></li>
+<li>Which model is appropriate for this task?</li>
+<li>What is the training data for the selected model?</li>
+<li>Do we have permission to release the experimental data to a
+generative AI tool?</li>
+<li>What will the figures be used for? Are they drafts or final?</li>
+<li>How will we validate the figures?</li>
+</ul>
+</div>
+<div id="additional-resources" class="slide section level1">
+<h1>Additional Resources</h1>
+<p>Library Staff and Resources</p>
+<p><strong>Friendly Overview</strong></p>
+<p><a
+href="https://www.youtube.com/watch?v=SVcsDDABEkM&amp;pp=ygUhaG93IGRvZXMgYWkgaW1hZ2UgZ2VuZXJhdGlvbiB3b3Jr">Vox
+Media’s AI art, explained</a></p>
+<p><strong>Dig Deeper</strong></p>
+<p><a
+href="https://guides.library.utoronto.ca/c.php?g=735513&amp;p=5297039">University
+of Toronto’s Artificial Intelligence for Image Research</a></p>
+<p><a
+href="https://www.csail.mit.edu/news/3-questions-how-ai-image-generators-work">Massachusetts
+Institute of Technology’s 3 Questions: How AI Image Generators
+Work</a></p>
+<p><a href="https://guides.nyu.edu/data/ai-image-generation">New York
+University’s Machines and Society LibGuide - Image Generation
+Tools</a></p>
+<p><a
+href="https://mitsloanedtech.mit.edu/ai/tools/images/">Massachusetts
+Institute of Technology’s AI Image Generation Tools</a></p>
+<p><a
+href="https://midas.umich.edu/generative-ai-user-guide/">University of
+Michigan’s Using Generative AI for Scientific Research</a></p>
+<p><strong>Dig Deepest</strong></p>
+<p><a href="https://huggingface.co/docs">Hugging Face</a></p>
+</div>
+<div id="frameworks" class="slide section level1">
+<h1>Frameworks</h1>
+<ul>
+<li>Backwards/Integrated Course Design
+<ul>
+<li>Developed by Fink (2003)</li>
+<li>A model for understanding how situational factors, learning goals,
+feedback and assessment, and teaching/learning activities are
+interrelated</li>
+</ul></li>
+<li>Universal Design for Learning
+<ul>
+<li>Developed by CAST (2018)</li>
+<li>A framework for inclusive teaching that treats engagement (“why”),
+representation (“what”), and expression (“how”)</li>
+</ul></li>
+</ul>
+</div>
+<div id="planning-process-begin-with-situational-factors"
+class="slide section level1">
+<h1>Planning Process: Begin with Situational Factors</h1>
+<ul>
+<li>Fink (2003)</li>
+<li>“What is the special instructional challenge of this particular
+course?”</li>
+<li>“How does this course fit into the larger curricular context?”</li>
+</ul>
+</div>
+<div id="planning-process-begin-with-situational-factors-1"
+class="slide section level1">
+<h1>Planning Process: Begin with Situational Factors</h1>
+<ul>
+<li>~25 students, non-technical UCSF community members (faculty,
+students, librarians)</li>
+<li>Library workshop, one 20 minute session</li>
+<li>Over zoom (in person and hybrid considerations)</li>
+</ul>
+</div>
+<div id="planning-process-learning-goals" class="slide section level1">
+<h1>Planning Process: Learning Goals</h1>
+<ul>
+<li>Fink (2003)</li>
+<li>“What would I like the impact of this course to be on students, 2-3
+years after the course is over?”</li>
+<li>“What would distinguish students who have taken this course from
+students who have not?”</li>
+<li>Moving from content centered to learning centered</li>
+<li>Using Fink’s taxonomy of significant learning</li>
+</ul>
+</div>
+<div id="assessment-and-evaluation" class="slide section level1">
+<h1>Assessment and Evaluation</h1>
+<ul>
+<li>Fink (2003)<br />
+</li>
+<li>“In what kind of situation do I expect students to need, or to be
+able to use this knowledge?”
+<ul>
+<li>Forward looking assessment</li>
+</ul></li>
+<li>Self assessment</li>
+<li>Active learning and formative assessment</li>
+</ul>
+<p>o How did you consider accessibility? Record the session, materials
+available openly Chat: provide links in multiple ways Consider a cell
+phone user/multiple tabs Alt text Markdown = accessible for screen
+readers UDL More/different engagement opportunities o What would you do
+if you had more time? Add additional scenarios One about protecting our
+own data One about use in an experiment/data collection context
+Introduce and use frameworks Data Science Framework Data Science Ethos
+Frameworks for Ethics Framework for this specifically Add more
+discussion in small groups o What would you change if this was an
+in-person or hybrid session?</p>
+</div>
+<div id="references" class="slide section level1">
+<h1>References</h1>
+<p>Fink, L. D. (2003). A self-directed guide to designing courses for
+significant learning. University of Oklahoma, 27(11), 1-33. <br></p>
+<p>CAST (2018). Universal Design for Learning Guidelines version 2.2.
+Retrieved from <a href="http://udlguidelines.cast.org"
+class="uri">http://udlguidelines.cast.org</a> Knuth, D. E. (1984).
+Literate programming. The computer journal, 27(2), 97-111. <br></p>
+<p>Boenig-Liptsin, M., Tanweer, A., &amp; Edmundson, A. (2022). Data
+Science Ethos Lifecycle: Interplay of Ethical Thinking and Data Science
+Practice. Journal of Statistics and Data Science Education, 30(3),
+228–240. <a href="https://doi.org/10.1080/26939169.2022.2089411"
+class="uri">https://doi.org/10.1080/26939169.2022.2089411</a> <br></p>
+<p>Keller, S. A., Shipp, S. S., Schroeder, A. D., and Korkmaz, G.
+(2020), “Doing Data Science: A Framework and Case Study,” Harvard Data
+Science Review, 2. DOI: 10.1162/99608f92.2d83f7f5.</p>
+</div>
+<div id="section" class="slide section level1">
+<h1></h1>
+<blockquote>
+<h2 id="appendix">Appendix</h2>
+</blockquote>
+</div>
+
+  <!-- dynamically load mathjax for compatibility with self-contained -->
+  <script>
+    (function () {
+      var script = document.createElement("script");
+      script.type = "text/javascript";
+      script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+      document.getElementsByTagName("head")[0].appendChild(script);
+    })();
+  </script>
+
+</body>
+</html>
