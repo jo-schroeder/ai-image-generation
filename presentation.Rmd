@@ -33,18 +33,30 @@ Take a minute to reflect and record any additional learning goals you have for y
   
 # AI image generation: Model
 - Leverages sophisticated models known as **deep learning** models
-  - Essentially designed to mimic how the human brain works (think pattern recognition, learning networks)
-- Stable diffusion
+  - **Bottom line: Deep learning is designed to mimic how the human brain works (think pattern recognition, learning networks)**
+- Specific model (most often) stable diffusion
 
 ![Top set of four images where a dog progressively turns to static, Bottom set of four images where static progressively turns into a dog](./img/stable-diffusion.jpg){width=600}
 
 Image Credit: [University of Toronto Libraries](https://guides.library.utoronto.ca/c.php?g=735513&p=5297039)
 
 # AI image generation: Training data
-- Voluminous (i.e. millions of images) (e.g. [Adobe firefly 300 million](https://www.fastcompany.com/90951954/as-firefly-leaves-beta-adobe-promises-bonuses-to-creators-who-trained-its-ai#:~:text=While%20Adobe%20only%20trained%20Firefly,that%20was%20now%20their%20competition))
-- Most of these models are designed for generally without a specific task or focus in mind, so topic can vary
-  - But keep in mind thing that are less frequent in the dataset will show up less frequently 
-- Annotated/but can be supervised or unsupervised
+- Voluminous (i.e. millions of images) (e.g. [Adobe Firefly was trained on 300 million images](https://www.fastcompany.com/90951954/as-firefly-leaves-beta-adobe-promises-bonuses-to-creators-who-trained-its-ai#:~:text=While%20Adobe%20only%20trained%20Firefly,that%20was%20now%20their%20competition))
+- Currently, most widely-available models are trained on a general set of images
+  - Likely to change in the future
+  - Specificity is an advantage of custom solutions
+- Images or concepts that are less frequent (or nonexistent) in the training data are less likely to surface
+  - Creates bias
+
+# AI image generation: Training data
+- Voluminous (i.e. millions of images) (e.g. [Adobe Firefly was trained on 300 million images](https://www.fastcompany.com/90951954/as-firefly-leaves-beta-adobe-promises-bonuses-to-creators-who-trained-its-ai#:~:text=While%20Adobe%20only%20trained%20Firefly,that%20was%20now%20their%20competition))
+- Currently, most widely-available models are trained on a general set of images
+  - Likely to change in the future
+  - Specificity is an advantage of custom solutions
+- Images or concepts that are less frequent (or nonexistent) in the training data are less likely to surface
+  - Creates bias
+
+![Top set of four images where a dog progressively turns to static, Bottom set of four images where static progressively turns into a dog](./img/fork-example.png){width=600}
 
 # AI image generation in the wild
 - Popular AI image generation technologies:
@@ -62,7 +74,7 @@ Image Credit: [University of Toronto Libraries](https://guides.library.utoronto.
 - Critically consider: For what purpose am I using AI image generation?
   - Is there precedent or guidance to use AI image generation in this way?
 - Is reproducibility a concern for my use?
-  - **AI image generation is largely not reproducible**
+  - **AI image generation is largely not reproducible** (i.e. images are generated with a degree of randomness)
 - Do I have any computational constraints? Cost constraints?
 - Do I need to build my own custom model or can I use an existing solution? Are existing models transparent?
   - Explainable AI
@@ -70,9 +82,12 @@ Image Credit: [University of Toronto Libraries](https://guides.library.utoronto.
 
 # Ethics and equity lenses: AI image generation
 - Training data
-  - How was the training data collected?
+  - Was the training data collected ethically?
   - Is the training data biased in a way that will produce harmful outcomes?
-- Is there a need for equity of access to AI image generation tools?
+- Consider transparent, explainable alternatives
+  - **Consult documentation**
+  - **It is a bad sign if there is no documentation or documentation is sparse**
+- Is there equity of access to AI image generation tools?
 
 # [University of Toronto's VALID-AI](https://guides.library.utoronto.ca/image-gen-ai/critical-evaluation)
 V: Validate data
@@ -92,7 +107,7 @@ I: You
 # Activity
 [Jamboard](https://jamboard.google.com/d/1bXWisOiuy1Uvxc24HXrGR6kB7LKAYm9S59BUZ_OfYgU/edit?usp=sharing)
 
-Engage with each scenario by asking a question or making a comment. What would questions or considerations come to your mind?
+Engage with each (purposefully vague!) scenario by asking a question or making a comment. What  questions or considerations come to your mind?
 
 Hint: If you're stuck visit
 [University of Toronto's VALID-AI](https://guides.library.utoronto.ca/image-gen-ai/critical-evaluation)
@@ -122,7 +137,7 @@ Hint: If you're stuck visit
 Write down one question you still have about AI generated images and one resource you can consult to answer your question.
 
 # Additional Resources
-Internal Library Staff and Resources
+Internal UCSF Library Staff and Resources
 
 **Friendly Overview**
 
@@ -144,6 +159,8 @@ Internal Library Staff and Resources
 
 [Hugging Face](https://huggingface.co/docs)
 
+> ## Teaching Debrief
+
 # Frameworks
 -   Backwards/Integrated Course Design
     -   Developed by Fink (2003)
@@ -164,6 +181,13 @@ Internal Library Staff and Resources
 -   \~25 students, non-technical UCSF community members (faculty, students, librarians)
 -   Library workshop, one 20 minute session
 -   Over zoom (in person and hybrid considerations)
+   -   To adapt the session: Lean into tools that allow attendees to convene in the same space
+   -   Invest in creating artifacts of the workshop
+- Address accessibility *
+   -   Emphasize approachable exploration of content
+   -   Openly accessible materials
+   -   Accommodations for low vision, hard of hearing
+        -   Consult best practices
 
 # Planning Process: Learning Goals
 
@@ -173,35 +197,17 @@ Internal Library Staff and Resources
 -   Moving from content centered to learning centered
 -   Using Fink's taxonomy of significant learning
 
-# Assessment and Evaluation
+# If I had more time I would...
 
--   Fink (2003)\
--   "In what kind of situation do I expect students to need, or to be able to use this knowledge?"
-    -   Forward looking assessment
--   Self assessment
--   Active learning and formative assessment
-
-o How did you consider accessibility?
-Record the session, materials available openly
-Chat: provide links in multiple ways
-Consider a cell phone user/multiple tabs
-Alt text
-Markdown = accessible for screen readers
-UDL
-More/different engagement opportunities 
-o What would you do if you had more time?
-Add additional scenarios
-One about protecting our own data
-One about use in an experiment/data collection context
-Introduce and use frameworks 
-Data Science Framework
-Data Science Ethos
-Frameworks for Ethics
-Framework for this specifically
-Add more discussion in small groups
-o What would you change if this was an in-person or hybrid session?
-
-
+- Dedicate more time to active learning and discussion
+  - Fink (2003)\
+  - "In what kind of situation do I expect students to need, or to be able to use this knowledge?"
+  - Add a variety of scenarios to address new context (e.g. AI image generation in new contexts)
+- Introduce and use relevant frameworks
+  - University of Toronto's VALID-AI
+  - Data Science Framework
+  - Data Science Ethos
+- Weave in individual information autonomy (data literacy)
 
 # References
 
@@ -223,4 +229,4 @@ Review, 2. DOI: 10.1162/99608f92.2d83f7f5.
 
 # 
 
-> ## Appendix
+

@@ -39,19 +39,6 @@ By the end of this workshop, students will be able to
 |                                  |                                  |
 +----------------------------------+----------------------------------+
 
-Universal Design for Learning:
-
--   Engagement
-
-  - Individual and group reflection
-
--   Representation
-
-  - Additional resources in multiple formats
-
--   Expression
-
-
 **UCSF, AI Image Generation**
 
 +--------------------------------------------------------+------------+
