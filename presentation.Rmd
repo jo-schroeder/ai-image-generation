@@ -1,7 +1,7 @@
 ---
 title: "AI Image Generation"
 author: Joanna Schroeder
-date: Presentation to UCSF <br> June 24 2024
+date: Presentation to UCSF Library <br> June 25 2024
 output: slidy_presentation
 footer: "&emsp; <a href = './index.html'>Homepage</a> &emsp; <a href = './plan.html'>Lesson Plan</a>"
 editor_options: 
