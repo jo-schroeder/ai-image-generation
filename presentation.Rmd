@@ -19,7 +19,8 @@ Take a minute to reflect and record any additional learning goals you have for y
 
 # In the news: Adobe
 - Last week the [Federal Trade Commission sued Adobe](https://slate.com/technology/2024/06/adobe-ftc-lawsuit-hard-cancel-subscriptions-ai.html) (Photoshop, Illustrator, Acrobat software company) for predatory business practices
-- This cast a light on recent criticism Adobe has received unveiling its AI software **Adobe Firefly**, which aims to be a leader in AI software for creative and artistic endeavors, providing a suite of tools including AI image generation
+- This cast a light on recent criticism Adobe has received on the AI software **Adobe Firefly**
+  - Firefly aims to be a leader in AI software for creative and artistic endeavors, providing a suite of tools including AI image generation
 - Critics of Firefly wonder:
   - How does AI image generation fit into artist's workflows? Will it replace artist's jobs?
   - What resources did Adobe use to build Firefly?
@@ -32,7 +33,7 @@ Take a minute to reflect and record any additional learning goals you have for y
   2. Training data
   
 # AI image generation: Model
-- Leverages sophisticated models known as **deep learning** models
+- Leverages sophisticated models known as **deep learning**
   - **Bottom line: Deep learning is designed to mimic how the human brain works (think pattern recognition, learning networks)**
 - Specific model (most often) stable diffusion
 
@@ -56,7 +57,8 @@ Image Credit: [University of Toronto Libraries](https://guides.library.utoronto.
 - Images or concepts that are less frequent (or nonexistent) in the training data are less likely to surface
   - Creates bias
 
-![Top set of four images where a dog progressively turns to static, Bottom set of four images where static progressively turns into a dog](./img/fork-example.png){width=600}
+Images created by DALL-E mini prompt: "fork under a plate"
+![Set of nine images each with a warped fork on a plate, one image contains many (more than four) tongs poking out from under a plate ](./img/fork-example.png){width=600}
 
 # AI image generation in the wild
 - Popular AI image generation technologies:
@@ -112,7 +114,7 @@ Engage with each (purposefully vague!) scenario by asking a question or making a
 Hint: If you're stuck visit
 [University of Toronto's VALID-AI](https://guides.library.utoronto.ca/image-gen-ai/critical-evaluation)
 
-# Scenario 1. You are putting together a presentation for your students/classmates. You would like to include a technical diagram, but you don't find anything useful through standard image repositories. You consider that you could use an AI image generation tool for this task.
+# Scenario 1. You are putting together a presentation for a group of students. You would like to include a technical diagram, but you don't find anything useful through standard image repositories. You consider that you could use an AI image generation tool for this task.
 
 # Scenario 1. 
 - [What is the guidance on AI generated images in education? ](https://mitsloanedtech.mit.edu/2024/03/06/supporting-learning-with-ai-generated-images-a-research-backed-guide/)
@@ -181,8 +183,8 @@ Internal UCSF Library Staff and Resources
 -   \~25 students, non-technical UCSF community members (faculty, students, librarians)
 -   Library workshop, one 20 minute session
 -   Over zoom (in person and hybrid considerations)
-   -   To adapt the session: Lean into tools that allow attendees to convene in the same space
-   -   Invest in creating artifacts of the workshop
+    -   To adapt the session: Lean into tools that allow attendees to convene in the same space
+    -   Invest in creating artifacts of the workshop
 - Address accessibility *
    -   Emphasize approachable exploration of content
    -   Openly accessible materials
