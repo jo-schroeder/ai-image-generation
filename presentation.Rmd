@@ -205,7 +205,7 @@ Internal UCSF Library Staff and Resources
 - Dedicate more time to active learning and discussion
   - Fink (2003)\
   - "In what kind of situation do I expect students to need, or to be able to use this knowledge?"
-  - Add a variety of scenarios to address new context (e.g. AI image generation in new contexts)
+  - Add a variety of scenarios to address new context (e.g. data collection, ethical ambiguity)
 - Introduce and use relevant frameworks
   - University of Toronto's VALID-AI
   - Data Science Framework
